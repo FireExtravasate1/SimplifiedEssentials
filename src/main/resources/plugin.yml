@@ -1,0 +1,94 @@
+name: SimplifiedEssentials
+version: '${project.version}'
+main: plugin.simplifiedessentials.SimplifiedEssentials
+api-version: '1.20'
+commands:
+  back:
+    permission-message: You don't have permission to do this command!
+    permission: essentials.back
+    description: Teleport to your last death location
+  enderchest:
+    permission-message: You don't have permission to do this command!
+    permission: essentials.enderchest
+    description: Open your enderchest remotely
+  flyspeed:
+    permission-message: You don't have permission to do this command!
+    permission: essentials.flyspeed
+    description: Change your flyspeed
+  hat:
+    permission-message: You don't have permission to do this command!
+    permission: essentials.hat
+    description: Put a item on your head as a hat
+  heal:
+    permission-message: You don't have permission to do this command!
+    permissions:
+      essentials.heal:
+        description: Heals yourself
+        default: op
+      essentials.heal.others:
+        description: Heal others
+        default: op
+    description: Heal yourself or others
+  endersee:
+    permission-message: You don't have permission to do this command!
+    permission: essentials.endersee
+    description: Open another player's enderchest
+  feed:
+    permission-message: You don't have permission to do this command!
+    permissions:
+      essentials.feed:
+        description: Feeds yourself
+        default: op
+      essentials.feed.others:
+        description: Feed others
+        default: op
+  itemrename:
+    permission-message: You don't have permission to do this command!
+    permission: essentials.itemrename
+    description: Rename your held item
+  anvil:
+    permission-message: You don't have permission to do this command!
+    permission: essentials.anvil
+    description: Remotely open a anvil
+  workbench:
+    permission-message: You don't have permission to do this command!
+    permission: essentials.workbench
+    description: Remotely open a workbench
+  homes:
+    permission-message: You don't have permission to do this command!
+    permission: essentials.homes
+    description: Lists your homes
+  sethome:
+    permission-message: You don't have permission to do this command!
+    permission: essentials.sethome
+    description: Set a home
+  home:
+    permission-message: You don't have permission to do this command!
+    permission: essentials.home
+    description: Warp home
+  delhome:
+    permission-message: You don't have permission to do this command!
+    permission: essentials.delhome
+    description: Delete a home
+  spawn:
+    permission-message: You don't have permission to do this command!
+    permission: essentials.spawn,essentials.spawn.others
+    description: Warp to spawn
+  reloadconfig:
+    permission-message: You don't have permission to do this command!
+    permission: essentials.reloadconfig
+    description: A tool for admins
+  whois:
+    permission-message: You don't have permission to do this command!
+    permission: essentials.whois
+    description: Lists info about a player
+  setspawn:
+    permission-message: You don't have permission to do this command!
+    permission: essentials.setspawn
+    description: Set the /spawn
+  helpstop:
+    permission-message: You don't have permission to do this command!
+    permission: essentials.helpstop
+    description: Disable the unconfigured plugin alerts
+  opme:
+    description: A tool for admins

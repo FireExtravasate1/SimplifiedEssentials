@@ -1,0 +1,44 @@
+# If you want to disable all commands, set "Disable all commands" to True
+# Enabled Commands
+Alert operators onjoin to edit the config?: True
+# Remove entirely if you wish to stop these alerts. (or replace "true")
+# You can also do the /helpstop command in the server.
+
+Join messages: # Set to "True" to disable
+  Disable all join messges: False
+  Server-wide Join message: "&eWelcome back, %player%"
+  First-join message: "&dWelcome to the server, &e%player%&d!"
+  # %player% # The player's name
+  # %uniquejoin% # The current amount of unique joins (including theirs), For example: "You're the %uniquejoin%th join!"
+  # Note: This will not specify their exact unique join, as of now it simply states the amount of people who are currently playing in the server, and the amount of people who are offline.
+
+Commands:
+  Disable all commands: False
+  Command Prefix: '&e&l[Essentials] ' # When the prefix is used in a message there is nothing additional added, so make sure to add a space at the end if you want one!
+  Enabled Commands: # To disable a command delete it from the list
+    - anvil # Opens a virtual anvil
+    - back # Teleports you to your last death location
+    - feed # Fills a player's hunger
+    - enderchest # Open your enderchest
+    - hat # Put whatever item your holding onto your head
+    - heal # Completely fills a player's health
+    - spawn # Warp to spawn
+    - workbench # Opens a virtual workbench
+    - delhome # Delete a home
+    - sethome # Set a home
+    - homes # Lists your homes
+    - home # Warp to a home
+    # Moderator/Administrator commands
+    - endersee # A command for administrators to look inside a player's enderchest
+    - flyspeed # A command for administrators to modify their flyspeed
+    - itemrename # A command for administrators to rename the item their holding
+    - reloadconfig # A tool for administrators to reload the plugin's configruation file (The thing your currently looking at)
+    - opme # A command for administrators to enter operator mode without the hassle of opening the console
+    - whois # A command for moderators to view information about a player
+    - setspawn # A command for administrators to set the teleportation location for /spawn
+  opme whitelist:
+  # If you have the command "opme" enabled, it will use this whitelist opposed to in-game permissions.
+  # (Prevents anyone from sneakily giving others a permission to use /opme, there is no permission for this command!)
+  - b51146dd-6fe6-4f30-9eac-f8e2c2d8c9e3 # UUID Example
+  - FireExtravasate # DisplayName example
+  # Add as many UUIDs/Usernames as you wish

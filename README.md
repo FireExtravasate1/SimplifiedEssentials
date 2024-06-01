@@ -3,6 +3,8 @@ A Spiggot 1.20.4 Minecraft plugin
 
 Developers: fireextravasate1/fireextravasate, xxawesqmexx
 
+Note: This plugin is lacking a lot of features, if you plan on using it you may want to try and edit the code some.
+
 Essentialsx is a very big plugin with a lot of features that you dont really need, this plugin keeps some of the most useful ones from it and discards the rest.
 This is a very simple and new plugin, but I'm planning on adding more features such as customiazble cooldowns for each command, and generally making it cleaner.
 It will slowly recieve some updates, such as a command cooldown, but if you need to contact the developers you can message me on Discord at "fireextravasate1"
